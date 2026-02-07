@@ -36,5 +36,17 @@ Strengthen practical understanding of network security concepts
 # Usage
 Each module is organized into separate directories with instructions provided within the respective folders. Modules can be executed independently based on the analysis or simulation required.
 
+## Dataset Access
+This project uses the CIC-DDoS dataset hosted on Kaggle.
+The dataset is not stored in the repository due to size constraints.
+
+To run the code:
+1. Install dependencies:
+   pip install kagglehub[pandas-datasets]
+2. Ensure you are authenticated with Kaggle
+3. Run the data loading script
+
+Dataset source: cyb3rcat/cicddos-dataset (Kaggle)
+
 Academic Note
 This project was developed as part of an academic study to explore LDOS attack behavior and analysis techniques. It is intended for educational and research purposes only.
